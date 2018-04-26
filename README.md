@@ -28,3 +28,4 @@ If you want to contribute see the [CONTRIBUTING.md][cont]
 [stdurl]: https://github.com/conventional-changelog/standard-version
 [prtimg]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg
 [prturl]: https://github.com/prettier/prettier
+[cont]: https://github.com/MartinHelmut/krieselreihe/blob/master/CONTRIBUTING.md

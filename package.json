@@ -1,0 +1,80 @@
+{
+  "name": "krieselreihe-website",
+  "version": "1.0.0",
+  "description": "The super awesome website for KrieselReihe Games text adventures.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "build": "next build && next export -o public",
+    "dev": "next",
+    "test": "jest",
+    "precommit": "lint-staged",
+    "commit": "git-cz",
+    "lint": "eslint '**/*.js' && stylelint '**/*.css'",
+    "fmt:check": "prettier --list-different \"**/*.{js,css,md,json}\"",
+    "prerelease": "npm run fmt:check && npm run lint && npm test",
+    "release": "standard-version -a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinHelmut/krieselreihe.git"
+  },
+  "keywords": [
+    "website",
+    "games",
+    "krieselreihe",
+    "text",
+    "adventure"
+  ],
+  "author": "Martin Helmut Fieber <info@martin-fieber.de> (https://martin-fieber.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinHelmut/krieselreihe/issues"
+  },
+  "homepage": "https://github.com/MartinHelmut/krieselreihe#readme",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "lint-staged": {
+    "*.{js,md,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "next": "5.1.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0",
+    "husky": "0.14.3",
+    "jest": "22.4.3",
+    "lint-staged": "7.0.5",
+    "prettier": "1.12.1",
+    "react-test-renderer": "16.3.2",
+    "standard-version": "4.3.0",
+    "stylelint": "9.2.0",
+    "stylelint-config-standard": "18.2.0"
+  }
+}

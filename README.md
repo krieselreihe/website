@@ -5,14 +5,14 @@
 [![Standard Version][stdimg]][stdurl]
 [![styled with prettier][prtimg]][prturl]
 
-The super awesome website for _KrieselReihe Games_ text adventures.
+The super awesome website for _Krieselreihe Games_ text adventures.
 
 ### Support
 
 This website was tested on the following environments:
 
--   All major browsers
--   Not IE!
+- All major browsers
+- Not IE!
 
 ## Development
 

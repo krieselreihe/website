@@ -1,7 +1,7 @@
 {
   "name": "krieselreihe-website",
   "version": "1.0.0",
-  "description": "The super awesome website for KrieselReihe Games text adventures.",
+  "description": "The super awesome website for Krieselreihe Games text adventures.",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "postbuild": "cp deployment/_redirects public/_redirects",
     "dev": "next",
     "test": "jest",
-    "precommit": "lint-staged",
     "commit": "git-cz",
     "lint": "eslint '**/*.js' && stylelint '**/*.css'",
     "format:check": "prettier --list-different \"**/*.{js,css,md,json}\"",
@@ -38,16 +37,6 @@
   "engines": {
     "node": ">=10",
     "npm": ">=6"
-  },
-  "lint-staged": {
-    "*.{js,md,json}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.css": [
-      "stylelint --fix",
-      "git add"
-    ]
   },
   "config": {
     "commitizen": {

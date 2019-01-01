@@ -53,6 +53,7 @@
   "devDependencies": {
     "@babel/preset-env": "7.2.3",
     "@babel/preset-react": "7.0.0",
+    "acorn": "6.0.4",
     "babel-jest": "24.0.0",
     "babel-plugin-styled-components": "1.10.0",
     "commitizen": "3.0.5",

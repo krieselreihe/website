@@ -44,7 +44,7 @@ $ git clone git@github.com:MartinHelmut/krieselreihe.git && cd krieselreihe && n
 To create a production build of the application:
 
 ```shell
-npm run build
+$ npm run build
 ```
 
 ### Tests

@@ -11,8 +11,8 @@ The super awesome website for _KrieselReihe Games_ text adventures.
 
 This website was tested on the following environments:
 
-*   All major browsers
-*   Not IE!
+-   All major browsers
+-   Not IE!
 
 ## Development
 

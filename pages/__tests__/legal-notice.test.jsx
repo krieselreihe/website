@@ -1,14 +1,14 @@
 import React from "react";
 import renderer from "react-test-renderer";
 
-import Index from "../index";
+import LegalNotice from "../legal-notice";
 
 jest.mock("../../components/page", () => ({ children }) => (
   <div>{children}</div>
 ));
 
-test("Index page renders", () => {
-  const component = renderer.create(<Index />);
+test("Legal notice page renders", () => {
+  const component = renderer.create(<LegalNotice />);
   const tree = component.toJSON();
 
   expect(tree).toMatchSnapshot();

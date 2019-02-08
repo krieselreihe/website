@@ -1,5 +1,7 @@
 import React from "react";
 
-const Index = () => <div>Welcome to KrieselReihe!</div>;
+import Page from "../components/page";
+
+const Index = () => <Page>Welcome to KrieselReihe!</Page>;
 
 export default Index;

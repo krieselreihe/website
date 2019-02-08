@@ -17,9 +17,9 @@ const LegalNotice = () => (
     <p>
       Telephone: +49 174 3821210
       <br />
-      E-Mail: info@martin-fieber.de
+      E-Mail: info@krieselreihe.com
       <br />
-      Website: https://martin-fieber.de
+      Website: https://krieselreihe.com
     </p>
     <h3>Disclaimer</h3>
     <h4>Accountability for content</h4>

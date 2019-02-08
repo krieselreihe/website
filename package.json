@@ -37,11 +37,6 @@
     "node": ">=10",
     "npm": ">=6"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "next": "7.0.2",
     "react": "16.8.1",

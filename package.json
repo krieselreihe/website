@@ -1,5 +1,5 @@
 {
-  "name": "krieselreihe-website",
+  "name": "@krieselreihe/website",
   "version": "1.0.0",
   "description": "The super awesome website for Krieselreihe Games text adventures.",
   "private": true,
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MartinHelmut/krieselreihe.git"
+    "url": "git+https://github.com/krieselreihe/website.git"
   },
   "keywords": [
     "website",
@@ -30,9 +30,9 @@
   "author": "Martin Helmut Fieber <info@martin-fieber.de> (https://martin-fieber.de)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MartinHelmut/krieselreihe/issues"
+    "url": "https://github.com/krieselreihe/website/issues"
   },
-  "homepage": "https://github.com/MartinHelmut/krieselreihe#readme",
+  "homepage": "https://krieselreihe.com",
   "engines": {
     "node": ">=10",
     "npm": ">=6"

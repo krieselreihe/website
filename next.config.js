@@ -3,7 +3,9 @@
 module.exports = {
   exportPathMap() {
     return {
-      "/": { page: "/" }
+      "/": { page: "/" },
+      "/legal-notice": { page: "/legal-notice" },
+      "/privacy-policy": { page: "/privacy-policy" }
     };
   }
 };

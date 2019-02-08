@@ -38,6 +38,10 @@ export default class MyApp extends App {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
+          <meta
+            name="google-site-verification"
+            content="z4O0vcBkI0Rh3oC08_MPreiNSUeo0wCjkTYuT--eKas"
+          />
           <style dangerouslySetInnerHTML={globalStyle} />
           <meta
             name="description"

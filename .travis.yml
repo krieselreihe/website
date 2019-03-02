@@ -4,4 +4,6 @@ node_js:
 install:
   - npm install
 script:
-  - npm run ci
+  - npm run lint
+  - npm run format:check
+  - npm test

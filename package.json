@@ -27,7 +27,10 @@
     "adventure",
     "selenium"
   ],
-  "author": "Martin Helmut Fieber <info@martin-fieber.de> (https://martin-fieber.de)",
+  "author": "Krieselreihe Games <info@krieselreihe.com> (https://krieselreihe.com)",
+  "contributors": [
+    "Martin Helmut Fieber <info@martin-fieber.de> (https://martin-fieber.de)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/krieselreihe/website/issues"

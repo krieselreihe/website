@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "build": "next build && next export -o public",
-    "postbuild": "cp deployment/* public/",
+    "build": "next build && next export",
+    "postbuild": "cp deployment/* out/",
     "dev": "next",
     "test": "jest --passWithNoTests",
     "commit": "git-cz",
@@ -40,7 +40,7 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "next": "9.0.8",
+    "next": "9.1.1",
     "react": "16.10.2",
     "react-dom": "16.10.2",
     "styled-components": "4.4.0"

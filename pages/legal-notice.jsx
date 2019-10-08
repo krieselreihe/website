@@ -9,13 +9,13 @@ const LegalNotice = () => (
     <address>
       Martin Helmut Fieber
       <br />
-      Heiligengeiststr. 14
+      Nybergsgatan 10
       <br />
-      21335 Lüneburg
+      11445 Stockholm
     </address>
     <h3>Contact</h3>
     <p>
-      Telephone: +49 174 3821210
+      Telephone: +46 723 996110
       <br />
       E-Mail: info@krieselreihe.com
       <br />

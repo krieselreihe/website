@@ -1,9 +1,10 @@
 language: node_js
-node_js:
-  - "10"
-install:
-  - npm install
-script:
-  - npm run lint
-  - npm run format:check
-  - npm test
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+node_js: "12"
+
+script: yarn ci

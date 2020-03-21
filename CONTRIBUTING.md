@@ -29,44 +29,44 @@ Once you have tried the above, create a GitHub pull request with your changes ch
 
 ### Environment
 
-Tested with Node 10 and NPM 6 and up..
+Tested with Node 10 and up..
 
 ### Setup
 
 Clone the repo and run an install:
 
-```shell
-$ git clone git@github.com:MartinHelmut/krieselreihe.git && cd krieselreihe && npm install
+```shell script
+git clone git@github.com:MartinHelmut/krieselreihe.git && cd krieselreihe && yarn
 ```
 
 ### Build
 
 To create a production build of the application:
 
-```shell
-$ npm run build
+```shell script
+yarn build
 ```
 
 ### Tests
 
 Tests are written in [Jest][jturl]. To run all tests execute
 
-```shell
-$ npm test
+```shell script
+yarn test
 ```
 
 and to lint all the code:
 
-```shell
-$ npm run lint
+```shell script
+yarn lint
 ```
 
 ### Format check
 
 You can also run a prettier verification for all JS files in all packages with:
 
-```shell
-$ npm run format:check
+```shell script
+yarn format:check
 ```
 
 This will list changes that would be made on commit (commit hook is installed with husky).
@@ -77,26 +77,15 @@ This will list changes that would be made on commit (commit hook is installed wi
 
 Checkout a new branch, e.g.:
 
-```shell
-$ git checkout -b task/do-something
+```shell script
+git checkout -b task/do-something
 ```
 
 **There is no specific naming convention for branches.**
 
-Add your changes and run `npm run commit` to start the commitizen cli to create a proper commit message.
+Add your changes and run `yarn commit` to start the commitizen cli to create a proper commit message.
 
 Create a "Pull Request" on Github and be awesome! 😎
-
-## Recommended workflow for release
-
-1.  Make changes
-2.  Commit those changes with `npm run commit`
-3.  Make sure all tests turn green
-4.  Create a new release with `npm run release`
-5.  Push your release `git push --follow-tags origin master`
-6.  **Done!**
-
-For more information on building a release see [https://github.com/conventional-changelog/standard-version][sv]
 
 ## Be Nice
 

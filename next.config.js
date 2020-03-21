@@ -5,7 +5,7 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/legal-notice": { page: "/legal-notice" },
-      "/privacy-policy": { page: "/privacy-policy" }
+      "/privacy-policy": { page: "/privacy-policy" },
     };
-  }
+  },
 };

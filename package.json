@@ -58,7 +58,7 @@
     "eslint-plugin-react": "7.19.0",
     "jest": "25.2.7",
     "jest-progress-bar-reporter": "1.0.15",
-    "prettier": "2.0.3",
+    "prettier": "2.0.4",
     "react-test-renderer": "16.13.1",
     "stylelint": "13.3.0",
     "stylelint-config-recommended": "3.0.0",

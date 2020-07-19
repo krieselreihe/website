@@ -46,6 +46,7 @@
     "styled-components": "5.1.1"
   },
   "devDependencies": {
+    "@babel/core": "7.10.5",
     "@babel/preset-env": "7.10.4",
     "@babel/preset-react": "7.10.4",
     "babel-jest": "26.1.0",
@@ -54,7 +55,7 @@
     "eslint": "7.5.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-react": "7.20.3",
     "jest": "26.1.0",
     "jest-progress-bar-reporter": "1.0.18",

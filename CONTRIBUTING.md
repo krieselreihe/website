@@ -29,7 +29,7 @@ Once you have tried the above, create a GitHub pull request with your changes ch
 
 ### Environment
 
-Tested with Node 10 and up..
+Tested with Node 10 and up.
 
 ### Setup
 
@@ -73,7 +73,7 @@ This will list changes that would be made on commit (commit hook is installed wi
 
 ### Commit changes
 
-**This repo is is Commitizen-friendly!** ([read more][czcli])
+**This repo is Commitizen-friendly!** ([read more][czcli])
 
 Checkout a new branch, e.g.:
 

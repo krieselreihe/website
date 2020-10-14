@@ -41,8 +41,8 @@
   },
   "dependencies": {
     "next": "9.5.5",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-is": "16.13.1",
     "styled-components": "5.2.0"
   },
@@ -61,7 +61,7 @@
     "jest": "26.5.3",
     "jest-progress-bar-reporter": "1.0.18",
     "prettier": "2.1.2",
-    "react-test-renderer": "16.13.1",
+    "react-test-renderer": "16.14.0",
     "stylelint": "13.7.2",
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-styled-components": "0.1.1",

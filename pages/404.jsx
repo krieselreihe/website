@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-import Page from "../components/page";
+import { Page } from "../components/Page";
 
 const Error404 = () => (
   <Page title="page not found">

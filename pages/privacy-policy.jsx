@@ -1,11 +1,15 @@
 import React from "react";
 
-import Page from "../components/page";
+import { Page } from "../components/Page";
+import { Headline } from "../patterns/Headline";
+import { Text } from "../patterns/Text";
+import { TextHeading } from "../patterns/TextHeading";
+import { Link } from "../patterns/Link";
 
 const PrivacyPolicy = () => (
   <Page title="privacy policy">
-    <h2>Privacy notice</h2>
-    <p>
+    <Headline>Privacy notice</Headline>
+    <Text>
       My website may be used without entering personal information. Different
       rules may apply to certain services on my site, however, and are explained
       separately below. Information is considered personal if it can be
@@ -14,47 +18,47 @@ const PrivacyPolicy = () => (
       (BDSG) and the Telemedia Act (TMG). The provisions below serve to provide
       information as to the manner, extent and purpose for collecting, using and
       processing personal information.
-    </p>
-    <p>
+    </Text>
+    <Text>
       Please be aware that data transfer via the internet is subject to security
       risks and, therefore, complete protection against third-party access to
       transferred data cannot be ensured.
-    </p>
-    <h2>Cookies</h2>
-    <p>
+    </Text>
+    <TextHeading>Cookies</TextHeading>
+    <Text>
       There are no cookies here. Seriously, not even any analytics script is
       used.
-    </p>
-    <h2>Analytics</h2>
-    <p>
+    </Text>
+    <TextHeading>Analytics</TextHeading>
+    <Text>
       This website uses{" "}
-      <a
+      <Link
         href="https://plausible.io/"
         title="Website of Plausible Analytics providing cookie-less web analytics without collecting personal data."
       >
         Plausible Analytics
-      </a>
+      </Link>
       , a privacy-friendly, open source web analytics software hosted inside the
       EU. Plausible Analytics does not track, collect nor store any personal
       data or personally identifiable information. It is GDPR, CCPA and cookie
       law compliant. Read more about{" "}
-      <a
+      <Link
         href="https://plausible.io/data-policy"
         title="Link to Plausible data policy site."
       >
         Plausible Data Policy
-      </a>{" "}
+      </Link>{" "}
       or have a direct look at the{" "}
-      <a
+      <Link
         href="https://plausible.io/krieselreihe.com"
         title="Public analytics dashboard of krieselreihe.com."
       >
         public dashboard of this website
-      </a>
+      </Link>
       .
-    </p>
-    <h2>Information/Cancellation/Deletion</h2>
-    <p>
+    </Text>
+    <TextHeading>Information / Cancellation / Deletion</TextHeading>
+    <Text>
       On the basis of the Federal Data Protection Act, you may contact my at no
       cost if you have questions relating to the collection, processing or use
       of your personal information, if you wish to request the correction,
@@ -62,7 +66,7 @@ const PrivacyPolicy = () => (
       granted consent. Please note that you have the right to have incorrect
       data corrected or to have personal data deleted, where such claim is not
       barred by any legal obligation to retain this data.
-    </p>
+    </Text>
   </Page>
 );
 

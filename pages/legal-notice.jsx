@@ -1,29 +1,34 @@
 import React from "react";
 
-import Page from "../components/page";
+import { Page } from "../components/Page";
+import { Text } from "../patterns/Text";
+import { SubHeadline } from "../patterns/SubHeadline";
+import { TextHeading } from "../patterns/TextHeading";
+import { Headline } from "../patterns/Headline";
+import { Address } from "../patterns/Address";
 
 const LegalNotice = () => (
   <Page title="legal notice">
-    <h2>Legal notice</h2>
-    <p>Information in accordance with section 5 TMG</p>
-    <address>
+    <Headline>Legal notice</Headline>
+    <Text>Information in accordance with section 5 TMG</Text>
+    <Address>
       Martin Helmut Fieber
       <br />
       Nybergsgatan 10
       <br />
       11445 Stockholm
-    </address>
-    <h3>Contact</h3>
-    <p>
+    </Address>
+    <TextHeading>Contact</TextHeading>
+    <Text>
       Telephone: +46 723 996110
       <br />
       E-Mail: info@krieselreihe.com
       <br />
       Website: https://krieselreihe.com
-    </p>
-    <h3>Disclaimer</h3>
-    <h4>Accountability for content</h4>
-    <p>
+    </Text>
+    <TextHeading>Disclaimer</TextHeading>
+    <SubHeadline>Accountability for content</SubHeadline>
+    <Text>
       The contents of my pages have been created with the utmost care. However,
       I cannot guarantee the contents&apos; accuracy, completeness or
       topicality. According to statutory provisions, I&apos;m furthermore
@@ -33,16 +38,16 @@ const LegalNotice = () => (
       circumstances pointing to illegal activity. Our obligations to remove or
       block the use of information under generally applicable laws remain
       unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
-    </p>
-    <h4>Accountability for links</h4>
-    <p>
+    </Text>
+    <SubHeadline>Accountability for links</SubHeadline>
+    <Text>
       Responsibility for the content of external links (to web pages of third
       parties) lies solely with the operators of the linked pages. No violations
       were evident to my at the time of linking. Should any legal infringement
       become known to my, I will remove the respective link immediately.
-    </p>
-    <h4>Copyright</h4>
-    <p>
+    </Text>
+    <SubHeadline>Copyright</SubHeadline>
+    <Text>
       My web pages and their contents are subject to German copyright law.
       Unless expressly permitted by law (§ 44a et seq. of the copyright law),
       every form of utilizing, reproducing or processing works subject to
@@ -51,7 +56,7 @@ const LegalNotice = () => (
       allowed only for private use, so must not serve either directly or
       indirectly for earnings. Unauthorized utilization of copyrighted works is
       punishable (§ 106 of the copyright law).
-    </p>
+    </Text>
   </Page>
 );
 

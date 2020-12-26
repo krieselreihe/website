@@ -6,15 +6,32 @@ import Head from "next/head";
 // https://github.com/zeit/next.js/issues/3520
 const globalStyle = {
   __html: `
-    *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-    }
-    body {
-        padding: 0;
-        margin: 0;
-    }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #__next {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  @font-face {
+    font-family: 'VCR';
+    src: url('/fonts/vcr.woff2') format('woff2'),
+         url('/fonts/vcr.woff') format('woff'),
+         url('/fonts/vcr.ttf') format('truetype');
+  }
+
+  ::selection {
+    background: #c63ae3;
+    color: white;
+  }
 `,
 };
 
@@ -78,7 +95,7 @@ export default class MyApp extends App {
           />
           <meta
             name="description"
-            content="Website for KrieselReihe Games awesome text adventures!
+            content="Website for Krieselreihe Games awesome text adventures!
 "
           />
         </Head>

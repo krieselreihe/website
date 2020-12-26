@@ -2,18 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://krieselreihe.com</loc>
-    <lastmod>2019-02-08</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://krieselreihe.com/legal-notice/</loc>
+    <loc>https://krieselreihe.com/selenium</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://krieselreihe.com/legal-notice</loc>
     <lastmod>2019-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://krieselreihe.com/privacy-policy/</loc>
+    <loc>https://krieselreihe.com/privacy-policy</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

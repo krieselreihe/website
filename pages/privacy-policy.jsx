@@ -25,6 +25,34 @@ const PrivacyPolicy = () => (
       There are no cookies here. Seriously, not even any analytics script is
       used.
     </p>
+    <h2>Analytics</h2>
+    <p>
+      This website uses{" "}
+      <a
+        href="https://plausible.io/"
+        title="Website of Plausible Analytics providing cookie-less web analytics without collecting personal data."
+      >
+        Plausible Analytics
+      </a>
+      , a privacy-friendly, open source web analytics software hosted inside the
+      EU. Plausible Analytics does not track, collect nor store any personal
+      data or personally identifiable information. It is GDPR, CCPA and cookie
+      law compliant. Read more about{" "}
+      <a
+        href="https://plausible.io/data-policy"
+        title="Link to Plausible data policy site."
+      >
+        Plausible Data Policy
+      </a>{" "}
+      or have a direct look at the{" "}
+      <a
+        href="https://plausible.io/krieselreihe.com"
+        title="Public analytics dashboard of krieselreihe.com."
+      >
+        public dashboard of this website
+      </a>
+      .
+    </p>
     <h2>Information/Cancellation/Deletion</h2>
     <p>
       On the basis of the Federal Data Protection Act, you may contact my at no

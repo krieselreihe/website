@@ -23,9 +23,12 @@ const globalStyle = {
 
   @font-face {
     font-family: 'VCR';
+    font-style: normal;
+    font-weight: 400;
     src: url('/fonts/vcr.woff2') format('woff2'),
          url('/fonts/vcr.woff') format('woff'),
          url('/fonts/vcr.ttf') format('truetype');
+    font-display: swap;
   }
 
   ::selection {
@@ -97,6 +100,20 @@ export default class MyApp extends App {
             name="description"
             content="Website for Krieselreihe Games awesome text adventures!
 "
+          />
+          <link
+            rel="preload"
+            href="/fonts/vcr.woff"
+            as="font"
+            type="font/woff"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/vcr.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
           />
         </Head>
         <Component {...pageProps} />

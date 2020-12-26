@@ -1,7 +1,6 @@
 # Contributing
 
-You want do something for this repo? Nice and easy! And of course: you
-are the best!
+You want to something for this repo? Nice. You are the best!
 
 ## Issues
 
@@ -55,7 +54,7 @@ Tests are written in [Jest][jturl]. To run all tests execute
 yarn test
 ```
 
-and to lint all the code:
+To lint all the code:
 
 ```shell script
 yarn lint
@@ -69,7 +68,7 @@ You can also run a prettier verification for all JS files in all packages with:
 yarn format:check
 ```
 
-This will list changes that would be made on commit (commit hook is installed with husky).
+This will list changes that would be made on the commit (commit hook is installed with husky).
 
 ### Commit changes
 

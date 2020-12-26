@@ -65,6 +65,17 @@ export default class MyApp extends App {
             content="z4O0vcBkI0Rh3oC08_MPreiNSUeo0wCjkTYuT--eKas"
           />
           <style dangerouslySetInnerHTML={globalStyle} />
+          <script
+            async
+            defer
+            data-domain="krieselreihe.com"
+            src="https://analytics.krieselreihe.com/js/index.outbound-links.js"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }`,
+            }}
+          />
           <meta
             name="description"
             content="Website for KrieselReihe Games awesome text adventures!

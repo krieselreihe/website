@@ -18,7 +18,7 @@ const LegalNotice = () => (
       <br />
       11445 Stockholm
     </Address>
-    <TextHeading>Contact</TextHeading>
+    <TextHeading id="contact">Contact</TextHeading>
     <Text>
       Telephone: +46 723 996110
       <br />

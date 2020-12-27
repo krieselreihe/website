@@ -7,4 +7,5 @@ export const Text = styled.p`
   line-height: 1.65;
   margin: 0 0 var(--size-500) 0;
   padding: 0;
+  color: var(--color-white);
 `;

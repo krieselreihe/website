@@ -6317,6 +6317,11 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
+number-generator@4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/number-generator/-/number-generator-4.0.5.tgz#08b95f52382ee8ec799f66fbf1927129eae808e9"
+  integrity sha512-YR4b3sU0DWyUTUKlhAby4RpZk9wgNgb3EgLjjOXs7bQk/ykmTw9d2jxFS5JPLaxltfql7sLX9fL7hWGhrGFHIQ==
+
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"

@@ -45,10 +45,10 @@ export const Page = ({
           </RouteLink>
           {" | "}
           <Link
-            href="https://github.com/MartinHelmut/krieselreihe"
-            title="View the sources of this website on Github"
+            href="https://github.com/krieselreihe"
+            title="View project and tools from Krieselreihe on Github"
           >
-            Website sources
+            GitHub
           </Link>
         </Footer>
       </Content>

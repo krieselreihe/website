@@ -40,7 +40,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "next": "10.0.5",
+    "next": "10.0.6",
     "number-generator": "4.0.5",
     "react": "17.0.1",
     "react-dom": "16.14.0",

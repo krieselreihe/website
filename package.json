@@ -63,7 +63,7 @@
     "jest-progress-bar-reporter": "1.0.18",
     "prettier": "2.2.1",
     "react-test-renderer": "16.14.0",
-    "stylelint": "13.10.0",
+    "stylelint": "13.11.0",
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.10.0"

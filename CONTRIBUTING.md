@@ -32,10 +32,10 @@ Tested with Node 10 and up.
 
 ### Setup
 
-Clone the repo and run an install:
+Clone the repo and run an installation:
 
 ```shell script
-git clone git@github.com:MartinHelmut/krieselreihe.git && cd krieselreihe && yarn
+git clone git@github.com:MartinHelmut/krieselreihe.git && cd krieselreihe && pnpm install
 ```
 
 ### Build
@@ -43,7 +43,7 @@ git clone git@github.com:MartinHelmut/krieselreihe.git && cd krieselreihe && yar
 To create a production build of the application:
 
 ```shell script
-yarn build
+pnpm build
 ```
 
 ### Tests
@@ -51,13 +51,13 @@ yarn build
 Tests are written in [Jest][jturl]. To run all tests execute
 
 ```shell script
-yarn test
+pnpm test
 ```
 
 To lint all the code:
 
 ```shell script
-yarn lint
+pnpm lint
 ```
 
 ### Format check
@@ -65,7 +65,7 @@ yarn lint
 You can also run a prettier verification for all JS files in all packages with:
 
 ```shell script
-yarn format:check
+pnpm format:check
 ```
 
 This will list changes that would be made on the commit (commit hook is installed with husky).
@@ -82,7 +82,7 @@ git checkout -b task/do-something
 
 **There is no specific naming convention for branches.**
 
-Add your changes and run `yarn commit` to start the commitizen cli to create a proper commit message.
+Add your changes and run `pnpm commit` to start the commitizen cli to create a proper commit message.
 
 Create a "Pull Request" on Github and be awesome! 😎
 

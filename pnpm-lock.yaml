@@ -5,7 +5,7 @@ specifiers:
   '@babel/preset-env': 7.14.7
   '@babel/preset-react': 7.14.5
   babel-jest: 27.0.6
-  babel-plugin-styled-components: 1.12.1
+  babel-plugin-styled-components: 1.13.1
   commitizen: 4.2.4
   eslint: 7.29.0
   eslint-config-prettier: 8.3.0
@@ -40,7 +40,7 @@ devDependencies:
   '@babel/preset-env': 7.14.7_@babel+core@7.14.6
   '@babel/preset-react': 7.14.5_@babel+core@7.14.6
   babel-jest: 27.0.6_@babel+core@7.14.6
-  babel-plugin-styled-components: 1.12.1_styled-components@5.3.0
+  babel-plugin-styled-components: 1.13.1_styled-components@5.3.0
   commitizen: 4.2.4
   eslint: 7.29.0
   eslint-config-prettier: 8.3.0_eslint@7.29.0
@@ -2413,8 +2413,8 @@ packages:
       styled-components: 5.3.0_281a4fa50a045c9112baf635f3bc27a7
     dev: false
 
-  /babel-plugin-styled-components/1.12.1_styled-components@5.3.0:
-    resolution: {integrity: sha512-XaZ1IRvJRWucLh+6g9XCtX7fvfscUjSQ0xsznp7o9hhoog12up5c3+6BTTLE10Zg8xu/nGJNtiFwT13wwuwdsQ==}
+  /babel-plugin-styled-components/1.13.1_styled-components@5.3.0:
+    resolution: {integrity: sha512-iY11g5orsdBnvWtXKCFBzDyTxZ9jvmkcYCCs5ONlvASYltDRhieCVzeDC7Do0fSW7psAL0zfVoXB3FHz2CkUSg==}
     peerDependencies:
       styled-components: '>= 2'
     dependencies:

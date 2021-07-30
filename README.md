@@ -1,6 +1,6 @@
-# KrieselReihe
+# Krieselreihe
 
-[![Build Status][travisimg]][travisorg]
+[![Build Status][circleimg]][circle]
 [![Commitizen friendly][czimg]][czcli]
 [![Standard Version][stdimg]][stdurl]
 [![styled with prettier][prtimg]][prturl]
@@ -20,8 +20,8 @@ In case you want to contribute have a look the [CONTRIBUTING.md][cont]
 
 ---
 
-[travisimg]: https://travis-ci.com/krieselreihe/website.svg?branch=main
-[travisorg]: https://travis-ci.com/krieselreihe/website
+[circleimg]: https://circleci.com/gh/krieselreihe/website/tree/main.svg?style=svg
+[circle]: https://circleci.com/gh/krieselreihe/website/tree/main
 [czimg]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [czcli]: http://commitizen.github.io/cz-cli/
 [stdimg]: https://img.shields.io/badge/release-standard%20version-brightgreen.svg

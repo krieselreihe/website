@@ -20,7 +20,7 @@ In case you want to contribute have a look the [CONTRIBUTING.md][cont]
 
 ---
 
-[circleimg]: https://circleci.com/gh/krieselreihe/website/tree/main.svg?style=svg
+[circleimg]: https://circleci.com/gh/krieselreihe/website/tree/main.svg?style=shield
 [circle]: https://circleci.com/gh/krieselreihe/website/tree/main
 [czimg]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [czcli]: http://commitizen.github.io/cz-cli/

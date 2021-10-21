@@ -23,7 +23,7 @@ specifiers:
   react-test-renderer: 17.0.2
   styled-components: 5.3.3
   stylelint: 13.13.1
-  stylelint-config-recommended: 5.0.0
+  stylelint-config-recommended: 6.0.0
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
 
@@ -52,7 +52,7 @@ devDependencies:
   prettier: 2.4.1
   react-test-renderer: 17.0.2_react@17.0.2
   stylelint: 13.13.1
-  stylelint-config-recommended: 5.0.0_stylelint@13.13.1
+  stylelint-config-recommended: 6.0.0_stylelint@13.13.1
   stylelint-config-styled-components: 0.1.1
   stylelint-processor-styled-components: 1.10.0
 
@@ -6771,10 +6771,10 @@ packages:
       stylis-rule-sheet: 0.0.10_stylis@3.5.4
     dev: false
 
-  /stylelint-config-recommended/5.0.0_stylelint@13.13.1:
-    resolution: {integrity: sha512-c8aubuARSu5A3vEHLBeOSJt1udOdS+1iue7BmJDTSXoCBmfEQmmWX+59vYIj3NQdJBY6a/QRv1ozVFpaB9jaqA==}
+  /stylelint-config-recommended/6.0.0_stylelint@13.13.1:
+    resolution: {integrity: sha512-ZorSSdyMcxWpROYUvLEMm0vSZud2uB7tX1hzBZwvVY9SV/uly4AvvJPPhCcymZL3fcQhEQG5AELmrxWqtmzacw==}
     peerDependencies:
-      stylelint: ^13.13.0
+      stylelint: ^14.0.0
     dependencies:
       stylelint: 13.13.1
     dev: true

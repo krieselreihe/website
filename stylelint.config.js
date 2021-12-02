@@ -6,4 +6,5 @@ module.exports = {
     "stylelint-config-recommended",
     "stylelint-config-styled-components",
   ],
+  customSyntax: "@stylelint/postcss-css-in-js",
 };

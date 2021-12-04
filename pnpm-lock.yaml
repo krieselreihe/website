@@ -18,7 +18,7 @@ specifiers:
   next: 12.0.4
   number-generator: 4.0.5
   postcss-syntax: 0.36.2
-  prettier: 2.5.0
+  prettier: 2.5.1
   react: 17.0.2
   react-dom: 17.0.2
   react-is: 17.0.2
@@ -53,7 +53,7 @@ devDependencies:
   jest: 27.4.3
   jest-progress-bar-reporter: 1.0.21
   postcss-syntax: 0.36.2
-  prettier: 2.5.0
+  prettier: 2.5.1
   react-test-renderer: 17.0.2_react@17.0.2
   stylelint: 14.1.0
   stylelint-config-recommended: 6.0.0_stylelint@14.1.0
@@ -5604,8 +5604,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.5.0:
-    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

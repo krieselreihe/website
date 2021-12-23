@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   eslint-plugin-import: 2.25.3
   eslint-plugin-jsx-a11y: 6.5.1
-  eslint-plugin-react: 7.27.1
+  eslint-plugin-react: 7.28.0
   jest: 27.4.5
   jest-progress-bar-reporter: 1.0.21
   next: 12.0.7
@@ -49,7 +49,7 @@ devDependencies:
   eslint-config-prettier: 8.3.0_eslint@8.5.0
   eslint-plugin-import: 2.25.3_eslint@8.5.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.5.0
-  eslint-plugin-react: 7.27.1_eslint@8.5.0
+  eslint-plugin-react: 7.28.0_eslint@8.5.0
   jest: 27.4.5
   jest-progress-bar-reporter: 1.0.21
   postcss-syntax: 0.36.2
@@ -3243,8 +3243,8 @@ packages:
       minimatch: 3.0.4
     dev: true
 
-  /eslint-plugin-react/7.27.1_eslint@8.5.0:
-    resolution: {integrity: sha512-meyunDjMMYeWr/4EBLTV1op3iSG3mjT/pz5gti38UzfM4OPpNc2m0t2xvKCOMU5D6FSdd34BIMFOvQbW+i8GAA==}
+  /eslint-plugin-react/7.28.0_eslint@8.5.0:
+    resolution: {integrity: sha512-IOlFIRHzWfEQQKcAD4iyYDndHwTQiCMcJVJjxempf203jnNLUnW34AXLrV33+nEXoifJE2ZEGmcjKPL8957eSw==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8

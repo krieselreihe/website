@@ -48,9 +48,9 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@babel/core": "7.16.5",
-    "@babel/preset-env": "7.16.5",
-    "@babel/preset-react": "7.16.5",
+    "@babel/core": "7.16.7",
+    "@babel/preset-env": "7.16.7",
+    "@babel/preset-react": "7.16.7",
     "@stylelint/postcss-css-in-js": "0.37.2",
     "babel-jest": "27.4.5",
     "babel-plugin-styled-components": "2.0.2",

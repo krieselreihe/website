@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-react': 7.16.7
   '@stylelint/postcss-css-in-js': 0.37.2
   babel-jest: 27.5.1
-  babel-plugin-styled-components: 2.0.3
+  babel-plugin-styled-components: 2.0.5
   commitizen: 4.2.4
   eslint: 8.9.0
   eslint-config-prettier: 8.4.0
@@ -43,7 +43,7 @@ devDependencies:
   '@babel/preset-react': 7.16.7_@babel+core@7.17.5
   '@stylelint/postcss-css-in-js': 0.37.2_postcss-syntax@0.36.2
   babel-jest: 27.5.1_@babel+core@7.17.5
-  babel-plugin-styled-components: 2.0.3_styled-components@5.3.3
+  babel-plugin-styled-components: 2.0.5_styled-components@5.3.3
   commitizen: 4.2.4
   eslint: 8.9.0
   eslint-config-prettier: 8.4.0_eslint@8.9.0
@@ -2221,8 +2221,8 @@ packages:
       - supports-color
     dev: true
 
-  /babel-plugin-styled-components/2.0.3_styled-components@5.3.3:
-    resolution: {integrity: sha512-lMrl3GdPrTl9daQJ70eRCPM9fHlvQx6YJNM7RqojKGbRnvG2AL7qvURlZ3L0GzRGnGr19SjvBKWcnlZZkgQ8/Q==}
+  /babel-plugin-styled-components/2.0.5_styled-components@5.3.3:
+    resolution: {integrity: sha512-A7kfST5odbf8Ev42OQbj5teEiT8DskpRoQ/iPYePLLdcTCAsodpYKqtoy4SJthpsGzQKc2vvnrtlUgdmJq6WKQ==}
     peerDependencies:
       styled-components: '>= 2'
     dependencies:
@@ -5557,7 +5557,7 @@ packages:
       '@emotion/is-prop-valid': 0.8.8
       '@emotion/stylis': 0.8.5
       '@emotion/unitless': 0.7.5
-      babel-plugin-styled-components: 2.0.3_styled-components@5.3.3
+      babel-plugin-styled-components: 2.0.5_styled-components@5.3.3
       css-to-react-native: 3.0.0
       hoist-non-react-statics: 3.3.2
       react: 17.0.2

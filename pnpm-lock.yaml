@@ -19,10 +19,10 @@ specifiers:
   number-generator: 4.0.5
   postcss-syntax: 0.36.2
   prettier: 2.6.1
-  react: 17.0.2
-  react-dom: 17.0.2
-  react-is: 17.0.2
-  react-test-renderer: 17.0.2
+  react: 18.0.0
+  react-dom: 18.0.0
+  react-is: 18.0.0
+  react-test-renderer: 18.0.0
   styled-components: 5.3.5
   stylelint: 14.6.1
   stylelint-config-recommended: 7.0.0
@@ -30,12 +30,12 @@ specifiers:
   stylelint-processor-styled-components: 1.10.0
 
 dependencies:
-  next: 12.1.1_978f344c876a57c1143ffe356b90df31
+  next: 12.1.1_572108936dbf4157100a77328045f809
   number-generator: 4.0.5
-  react: 17.0.2
-  react-dom: 17.0.2_react@17.0.2
-  react-is: 17.0.2
-  styled-components: 5.3.5_281a4fa50a045c9112baf635f3bc27a7
+  react: 18.0.0
+  react-dom: 18.0.0_react@18.0.0
+  react-is: 18.0.0
+  styled-components: 5.3.5_1a79be909b93ec9b98501cf963be33c8
 
 devDependencies:
   '@babel/core': 7.17.8
@@ -54,7 +54,7 @@ devDependencies:
   jest-progress-bar-reporter: 1.0.21
   postcss-syntax: 0.36.2
   prettier: 2.6.1
-  react-test-renderer: 17.0.2_react@17.0.2
+  react-test-renderer: 18.0.0_react@18.0.0
   stylelint: 14.6.1
   stylelint-config-recommended: 7.0.0_stylelint@14.6.1
   stylelint-config-styled-components: 0.1.1
@@ -2251,7 +2251,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.0
-      styled-components: 5.3.5_281a4fa50a045c9112baf635f3bc27a7
+      styled-components: 5.3.5_1a79be909b93ec9b98501cf963be33c8
 
   /babel-plugin-syntax-jsx/6.18.0:
     resolution: {integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=}
@@ -4644,7 +4644,7 @@ packages:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
 
-  /next/12.1.1_978f344c876a57c1143ffe356b90df31:
+  /next/12.1.1_572108936dbf4157100a77328045f809:
     resolution: {integrity: sha512-IOfEIAgroMtsoYz6HXpDS+b5WB9WZ+MH266COXGlcpIiYSgUyJf9xV6vF+zY2RPvBJFT4fUW0EVdVnoOmTloDw==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -4665,10 +4665,10 @@ packages:
       '@next/env': 12.1.1
       caniuse-lite: 1.0.30001298
       postcss: 8.4.5
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-jsx: 5.0.1_@babel+core@7.17.8+react@17.0.2
-      use-subscription: 1.5.1_react@17.0.2
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      styled-jsx: 5.0.1_@babel+core@7.17.8+react@18.0.0
+      use-subscription: 1.5.1_react@18.0.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.1
       '@next/swc-android-arm64': 12.1.1
@@ -5085,15 +5085,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  /react-dom/18.0.0_react@18.0.0:
+    resolution: {integrity: sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==}
     peerDependencies:
-      react: 17.0.2
+      react: ^18.0.0
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 18.0.0
+      scheduler: 0.21.0
     dev: false
 
   /react-is/16.13.1:
@@ -5101,35 +5100,37 @@ packages:
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
+    dev: true
 
-  /react-shallow-renderer/16.14.1_react@17.0.2:
+  /react-is/18.0.0:
+    resolution: {integrity: sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==}
+
+  /react-shallow-renderer/16.14.1_react@18.0.0:
     resolution: {integrity: sha512-rkIMcQi01/+kxiTE9D3fdS959U1g7gs+/rborw++42m1O9FAQiNI/UNRZExVUoAOprn4umcXf+pFRou8i4zuBg==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0
     dependencies:
       object-assign: 4.1.1
-      react: 17.0.2
+      react: 18.0.0
       react-is: 17.0.2
     dev: true
 
-  /react-test-renderer/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-yaQ9cB89c17PUb0x6UfWRs7kQCorVdHlutU1boVPEsB8IDZH6n9tHxMacc3y0JoXOJUsZb/t/Mb8FUWMKaM7iQ==}
+  /react-test-renderer/18.0.0_react@18.0.0:
+    resolution: {integrity: sha512-SyZTP/FSkwfiKOZuTZiISzsrC8A80KNlQ8PyyoGoOq+VzMAab6Em1POK/CiX3+XyXG6oiJa1C53zYDbdrJu9fw==}
     peerDependencies:
-      react: 17.0.2
+      react: ^18.0.0
     dependencies:
-      object-assign: 4.1.1
-      react: 17.0.2
-      react-is: 17.0.2
-      react-shallow-renderer: 16.14.1_react@17.0.2
-      scheduler: 0.20.2
+      react: 18.0.0
+      react-is: 18.0.0
+      react-shallow-renderer: 16.14.1_react@18.0.0
+      scheduler: 0.21.0
     dev: true
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/18.0.0:
+    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: false
 
   /read-pkg-up/7.0.1:
@@ -5331,11 +5332,10 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  /scheduler/0.21.0:
+    resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
 
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
@@ -5578,7 +5578,7 @@ packages:
     resolution: {integrity: sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=}
     dev: true
 
-  /styled-components/5.3.5_281a4fa50a045c9112baf635f3bc27a7:
+  /styled-components/5.3.5_1a79be909b93ec9b98501cf963be33c8:
     resolution: {integrity: sha512-ndETJ9RKaaL6q41B69WudeqLzOpY1A/ET/glXkNZ2T7dPjPqpPCXXQjDFYZWwNnE5co0wX+gTCqx9mfxTmSIPg==}
     engines: {node: '>=10'}
     requiresBuild: true
@@ -5595,14 +5595,14 @@ packages:
       babel-plugin-styled-components: 2.0.6_styled-components@5.3.5
       css-to-react-native: 3.0.0
       hoist-non-react-statics: 3.3.2
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      react-is: 18.0.0
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false
 
-  /styled-jsx/5.0.1_@babel+core@7.17.8+react@17.0.2:
+  /styled-jsx/5.0.1_@babel+core@7.17.8+react@18.0.0:
     resolution: {integrity: sha512-+PIZ/6Uk40mphiQJJI1202b+/dYeTVd9ZnMPR80pgiWbjIwvN2zIp4r9et0BgqBuShh48I0gttPlAXA7WVvBxw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -5616,7 +5616,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.17.8
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
   /stylelint-config-recommended/7.0.0_stylelint@14.6.1:
@@ -5946,13 +5946,13 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /use-subscription/1.5.1_react@17.0.2:
+  /use-subscription/1.5.1_react@18.0.0:
     resolution: {integrity: sha512-Xv2a1P/yReAjAbhylMfFplFKj9GssgTwN7RlcTxBujFQcloStWNDQdc4g4NRWH9xS4i/FDk04vQBptAXoF3VcA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
     dependencies:
       object-assign: 4.1.1
-      react: 17.0.2
+      react: 18.0.0
     dev: false
 
   /util-deprecate/1.0.2:

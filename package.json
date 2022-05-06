@@ -51,7 +51,7 @@
     "@babel/core": "7.17.10",
     "@babel/preset-env": "7.17.10",
     "@babel/preset-react": "7.16.7",
-    "@stylelint/postcss-css-in-js": "0.37.2",
+    "@stylelint/postcss-css-in-js": "0.38.0",
     "babel-jest": "28.1.0",
     "babel-plugin-styled-components": "2.0.7",
     "commitizen": "4.2.4",

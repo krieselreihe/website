@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': 7.17.10
   '@babel/preset-env': 7.17.10
   '@babel/preset-react': 7.16.7
-  '@stylelint/postcss-css-in-js': 0.37.2
+  '@stylelint/postcss-css-in-js': 0.38.0
   babel-jest: 28.1.0
   babel-plugin-styled-components: 2.0.7
   commitizen: 4.2.4
@@ -41,7 +41,7 @@ devDependencies:
   '@babel/core': 7.17.10
   '@babel/preset-env': 7.17.10_@babel+core@7.17.10
   '@babel/preset-react': 7.16.7_@babel+core@7.17.10
-  '@stylelint/postcss-css-in-js': 0.37.2_postcss-syntax@0.36.2
+  '@stylelint/postcss-css-in-js': 0.38.0_postcss-syntax@0.36.2
   babel-jest: 28.1.0_@babel+core@7.17.10
   babel-plugin-styled-components: 2.0.7_styled-components@5.3.5
   commitizen: 4.2.4
@@ -1888,8 +1888,8 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@stylelint/postcss-css-in-js/0.37.2_postcss-syntax@0.36.2:
-    resolution: {integrity: sha512-nEhsFoJurt8oUmieT8qy4nk81WRHmJynmVwn/Vts08PL9fhgIsMhk1GId5yAN643OzqEEb5S/6At2TZW7pqPDA==}
+  /@stylelint/postcss-css-in-js/0.38.0_postcss-syntax@0.36.2:
+    resolution: {integrity: sha512-XOz5CAe49kS95p5yRd+DAIWDojTjfmyAQ4bbDlXMdbZTQ5t0ThjSLvWI6JI2uiS7MFurVBkZ6zUqcimzcLTBoQ==}
     peerDependencies:
       postcss: '>=7.0.0'
       postcss-syntax: '>=0.36.2'

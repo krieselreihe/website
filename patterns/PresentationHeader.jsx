@@ -27,12 +27,15 @@ export function PresentationHeader() {
           <Title>KrieselReihe</Title>
         </Link>
       </RouteLink>
-      <PresentsToYou
-        src="/images/presents-to-you.png"
-        alt="presents to you"
-        width="196"
-        height="37"
-      />
+      <picture>
+        <source type="image/webp" srcSet="/images/presents-to-you.webp" />
+        <PresentsToYou
+          src="/images/presents-to-you.png"
+          alt="presents to you"
+          width="196"
+          height="37"
+        />
+      </picture>
     </Container>
   );
 }

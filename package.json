@@ -61,7 +61,7 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-react": "7.30.0",
     "jest": "28.1.1",
-    "jest-progress-bar-reporter": "1.0.21",
+    "jest-progress-bar-reporter": "1.0.24",
     "postcss": "8.4.14",
     "postcss-syntax": "0.36.2",
     "prettier": "2.7.0",

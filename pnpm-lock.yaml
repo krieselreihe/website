@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-jsx-a11y: 6.5.1
   eslint-plugin-react: 7.30.0
   jest: 28.1.1
-  jest-progress-bar-reporter: 1.0.21
+  jest-progress-bar-reporter: 1.0.24
   next: 12.1.6
   number-generator: 4.0.5
   postcss: 8.4.14
@@ -52,7 +52,7 @@ devDependencies:
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.17.0
   eslint-plugin-react: 7.30.0_eslint@8.17.0
   jest: 28.1.1
-  jest-progress-bar-reporter: 1.0.21
+  jest-progress-bar-reporter: 1.0.24
   postcss: 8.4.14
   postcss-syntax: 0.36.2_postcss@8.4.14
   prettier: 2.7.0
@@ -3985,11 +3985,11 @@ packages:
       jest-resolve: 28.1.1
     dev: true
 
-  /jest-progress-bar-reporter/1.0.21:
-    resolution: {integrity: sha512-hJ1yDNjXjROcLF7XyESiC3lNkMPnMewPqohsSjMkul3tRbfkQDrGMjVBSH2gocOJqx4nfJ0CLtLlKITeLwzujg==}
+  /jest-progress-bar-reporter/1.0.24:
+    resolution: {integrity: sha512-7FBWU01SUlD6O9ZtQqMNA9Tn9TFOj51qDdxnAPJUfW0mB1PDCuRVDCrKI5DTB9q0M861fGMGdlL0AKFHMYyd4Q==}
     dependencies:
       chalk: 4.1.1
-      moment: 2.29.1
+      moment: 2.29.2
       progress: 2.0.3
     dev: true
 
@@ -4471,8 +4471,8 @@ packages:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: true
 
-  /moment/2.29.1:
-    resolution: {integrity: sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==}
+  /moment/2.29.2:
+    resolution: {integrity: sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==}
     dev: true
 
   /ms/2.0.0:

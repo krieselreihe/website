@@ -16,7 +16,7 @@ specifiers:
   jest: 28.1.3
   jest-progress-bar-reporter: 1.0.25
   next: 12.2.4
-  number-generator: 4.0.5
+  number-generator: 4.0.6
   postcss: 8.4.16
   postcss-syntax: 0.36.2
   prettier: 2.7.1
@@ -32,7 +32,7 @@ specifiers:
 
 dependencies:
   next: 12.2.4_twoewwu6sg7cdf3ao6njtbftne
-  number-generator: 4.0.5
+  number-generator: 4.0.6
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -4725,9 +4725,9 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /number-generator/4.0.5:
-    resolution: {integrity: sha512-YR4b3sU0DWyUTUKlhAby4RpZk9wgNgb3EgLjjOXs7bQk/ykmTw9d2jxFS5JPLaxltfql7sLX9fL7hWGhrGFHIQ==}
-    engines: {node: '>=8'}
+  /number-generator/4.0.6:
+    resolution: {integrity: sha512-ukd0L4kx6SshvxMJzQLmEMiztQ5JswpdHfIUirhj4Peno4zQOXSg1l38ZrmL/PvTZgsKAUwlwK7ix0/WZ54cLg==}
+    engines: {node: '>=12'}
     dev: false
 
   /object-assign/4.1.1:

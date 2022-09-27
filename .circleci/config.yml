@@ -21,6 +21,3 @@ jobs:
       - run:
           name: format
           command: pnpm format:check
-      - run:
-          name: test
-          command: pnpm test

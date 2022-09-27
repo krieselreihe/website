@@ -2,21 +2,15 @@
 
 module.exports = {
   root: true,
-  extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
-  plugins: ["jsx-a11y", "import"],
-  parserOptions: {
-    ecmaVersion: 8,
-    sourceType: "module",
-  },
+  extends: ["eslint:recommended", "prettier"],
+  plugins: ["html"],
+  ignorePatterns: ["src/_includes"],
   env: {
-    node: true,
     browser: true,
-    jest: true,
+    node: true,
     es6: true,
   },
-  settings: {
-    react: {
-      version: "detect",
-    },
+  globals: {
+    hljs: "readonly",
   },
 };

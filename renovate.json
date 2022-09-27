@@ -2,40 +2,10 @@
   "extends": ["config:base"],
   "dependencyDashboard": false,
   "baseBranches": ["main"],
-  "dependencies": {
-    "semanticPrefix": "chore:",
-    "semanticCommitScope": ""
-  },
-  "pin": {
-    "semanticPrefix": "chore:",
-    "semanticCommitScope": ""
-  },
-  "semanticPrefix": "chore:",
-  "semanticCommitScope": "",
   "packageRules": [
     {
-      "packageNames": [
-        "@babel/preset-env",
-        "@babel/preset-react",
-        "babel-jest",
-        "babel-plugin-styled-components",
-        "eslint",
-        "eslint-config-prettier",
-        "eslint-plugin-import",
-        "eslint-plugin-jsx-a11y",
-        "eslint-plugin-react",
-        "jest",
-        "prettier",
-        "react-test-renderer",
-        "stylelint",
-        "stylelint-config-recommended",
-        "stylelint-config-styled-components",
-        "stylelint-processor-styled-components"
-      ],
-      "automerge": true,
-      "major": {
-        "automerge": false
-      }
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
     }
   ]
 }

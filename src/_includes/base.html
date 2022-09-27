@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicon/safari-pinned-tab.svg"
+      color="#6200ee"
+    />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="msapplication-TileColor" content="#6200ee" />
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="google-site-verification"
+      content="z4O0vcBkI0Rh3oC08_MPreiNSUeo0wCjkTYuT--eKas"
+    />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="description" content="{{ description }}" />
+    <meta property="twitter:creator" content="@krieselreihe" />
+    <meta property="twitter:domain" content="{{ site.name }}" />
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    {%- if title %}
+    <meta property="twitter:title" content="{{ title }}" />
+    {%- endif %}
+    <meta property="twitter:description" content="{{ description }}" />
+    {%- if image %}
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="{{ site.url }}{{ image }}" />
+    <meta property="twitter:image:alt" content="{{ imageAlt }}" />
+    {%- endif %} {%- if title %}
+    <meta property="og:title" content="{{ title }}" />
+    {%- endif %}
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {%- if image %}
+    <meta property="og:image" content="{{ site.url }}{{ image }}" />
+    <meta property="og:image:alt" content="{{ imageAlt }}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    {%- endif %}
+    <script
+      async
+      defer
+      data-domain="{{ site.name }}"
+      src="https://analytics.krieselreihe.com/js/index.outbound-links.js"
+    ></script>
+    <script>
+      window.plausible =
+        window.plausible ||
+        (() => (window.plausible.q = window.plausible.q || []).push(arguments));
+      {%- if plausible %}
+      window.plausible("{{ plausible }}", { props: { path: document.location.pathname } });
+      {%- endif %}
+    </script>
+    <script type="module" src="/assets/scripts/main.mjs"></script>
+    <title>{{ site.name }}{{ [" | ", title] | join if title else "" }}</title>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <div class="content">
+        <header>
+          <h1>
+            <a href="/" title="I want to go home.">KrieselReihe</a>
+          </h1>
+        </header>
+        <main>{{ content | safe }}</main>
+        <footer>
+          <p>
+            <a
+              href="/legal-notice"
+              title="Legal notice page with contact information"
+            >
+              Legal notice
+            </a>
+            |
+            <a href="/privacy-policy" title="Privacy policy page">
+              Privacy policy
+            </a>
+            |
+            <a
+              href="https://github.com/krieselreihe"
+              title="View project and tools from Krieselreihe on Github"
+            >
+              GitHub
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <div class="background"></div>
+  </body>
+</html>

@@ -1,19 +1,15 @@
 {
   "name": "@krieselreihe/website",
   "version": "1.0.0",
-  "description": "The super awesome website for Krieselreihe Games text adventures.",
+  "description": "The super awesome website for Krieselreihe Games.",
   "private": true,
   "scripts": {
-    "start": "next start",
-    "build": "next build && next export",
-    "dev": "next",
-    "test": "jest --passWithNoTests",
-    "commit": "git-cz",
-    "lint": "eslint '**/*.js' && stylelint '**/*.jsx'",
+    "start": "eleventy --serve",
+    "build": "eleventy && prettier --write build",
+    "lint": "eslint '**/*.html' && stylelint '**/*.css'",
     "format": "prettier --write .",
     "format:check": "prettier --list-different .",
-    "ci": "pnpm run lint && pnpm run format:check && pnpm run test",
-    "preinstall": "node ./scripts/ensure-package-manager.js"
+    "ci": "pnpm run lint && pnpm run format:check"
   },
   "repository": {
     "type": "git",
@@ -23,8 +19,6 @@
     "website",
     "games",
     "krieselreihe",
-    "text",
-    "adventure",
     "selenium"
   ],
   "author": "Krieselreihe Games <info@krieselreihe.com> (https://krieselreihe.com)",
@@ -36,39 +30,15 @@
     "url": "https://github.com/krieselreihe/website/issues"
   },
   "homepage": "https://krieselreihe.com",
-  "engines": {
-    "node": ">=14"
-  },
-  "dependencies": {
-    "next": "12.3.1",
-    "number-generator": "4.0.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-is": "18.2.0",
-    "styled-components": "5.3.5"
-  },
   "devDependencies": {
-    "@babel/core": "7.19.1",
-    "@babel/preset-env": "7.19.1",
-    "@babel/preset-react": "7.18.6",
-    "@stylelint/postcss-css-in-js": "0.38.0",
-    "babel-jest": "29.0.3",
-    "babel-plugin-styled-components": "2.0.7",
-    "commitizen": "4.2.5",
+    "@11ty/eleventy": "2.0.0-canary.16",
+    "@11ty/eleventy-plugin-rss": "1.2.0",
     "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jsx-a11y": "6.6.1",
-    "eslint-plugin-react": "7.31.8",
-    "jest": "29.0.3",
-    "jest-progress-bar-reporter": "1.0.25",
-    "postcss": "8.4.16",
-    "postcss-syntax": "0.36.2",
+    "eslint-plugin-html": "7.1.0",
+    "luxon": "3.0.4",
     "prettier": "2.7.1",
-    "react-test-renderer": "18.2.0",
     "stylelint": "14.12.1",
-    "stylelint-config-recommended": "9.0.0",
-    "stylelint-config-styled-components": "0.1.1",
-    "stylelint-processor-styled-components": "1.10.0"
+    "stylelint-prettier": "2.0.0"
   }
 }

@@ -8,7 +8,7 @@ specifiers:
   eslint-plugin-html: 7.1.0
   luxon: 3.0.4
   prettier: 2.7.1
-  stylelint: 14.12.1
+  stylelint: 14.13.0
   stylelint-prettier: 2.0.0
 
 devDependencies:
@@ -19,8 +19,8 @@ devDependencies:
   eslint-plugin-html: 7.1.0
   luxon: 3.0.4
   prettier: 2.7.1
-  stylelint: 14.12.1
-  stylelint-prettier: 2.0.0_tugccnn56qs6o3hpgajpfocewy
+  stylelint: 14.13.0
+  stylelint-prettier: 2.0.0_iyjc6luk73xil7sritcxq7witi
 
 packages:
 
@@ -1695,7 +1695,7 @@ packages:
     dependencies:
       hosted-git-info: 4.0.2
       is-core-module: 2.8.1
-      semver: 7.3.5
+      semver: 7.3.7
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -2185,14 +2185,6 @@ packages:
     hasBin: true
     dev: true
 
-  /semver/7.3.5:
-    resolution: {integrity: sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver/7.3.7:
     resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
     engines: {node: '>=10'}
@@ -2326,7 +2318,7 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /stylelint-prettier/2.0.0_tugccnn56qs6o3hpgajpfocewy:
+  /stylelint-prettier/2.0.0_iyjc6luk73xil7sritcxq7witi:
     resolution: {integrity: sha512-jvT3G+9lopkeB0ARmDPszyfaOnvnIF+30QCjZxyt7E6fynI1T9mOKgYDNb9bXX17M7PXMZaX3j/26wqakjp1tw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2335,11 +2327,11 @@ packages:
     dependencies:
       prettier: 2.7.1
       prettier-linter-helpers: 1.0.0
-      stylelint: 14.12.1
+      stylelint: 14.13.0
     dev: true
 
-  /stylelint/14.12.1:
-    resolution: {integrity: sha512-ZEM4TuksChMBfuPadQsHUkbOoRySAT9QMfDvvYxdAchOJl0p+csTMBXOu6ORAAxKhwBmxqJiep8V88bXfNs3EQ==}
+  /stylelint/14.13.0:
+    resolution: {integrity: sha512-NJSAdloiAB/jgVJKxMR90mWlctvmeBFGFVUvyKngi9+j/qPSJ5ZB+u8jOmGbLTnS7OHrII9NFGehPRyar8U5vg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:

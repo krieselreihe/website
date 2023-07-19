@@ -40,7 +40,8 @@ body {
   font-family: "VCR";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/vcr.woff2") format("woff2"),
+  src:
+    url("/assets/fonts/vcr.woff2") format("woff2"),
     url("/assets/fonts/vcr.woff") format("woff"),
     url("/assets/fonts/vcr.ttf") format("truetype");
   font-display: swap;

@@ -62,10 +62,10 @@
     <meta property="og:image:type" content="image/png" />
     {%- endif %}
     <script
-      async
       defer
-      data-domain="{{ site.name }}"
-      src="https://analytics.krieselreihe.com/js/index.outbound-links.js"
+      data-domain="krieselreihe.com"
+      data-api="/api/event"
+      src="/js/script.js"
     ></script>
     <script>
       window.plausible =
@@ -75,7 +75,7 @@
       window.plausible("{{ plausible }}", { props: { path: document.location.pathname } });
       {%- endif %}
     </script>
-    <script type="module" src="/assets/scripts/main.mjs"></script>
+    <script type="module" src="/assets/scripts/main.js"></script>
     <title>{{ site.name }}{{ [" | ", title] | join if title else "" }}</title>
   </head>
   <body>

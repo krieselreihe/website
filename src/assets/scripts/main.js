@@ -120,7 +120,7 @@ function createRect(colorDef) {
 function main() {
   const animatedElements = Array(80)
     .fill(0)
-    .map((_, index) => {
+    .map(() => {
       const children = getRandomElement(elementCreator);
       return createSVG({ children });
     });

@@ -5,7 +5,7 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
  * Copy static files like images, styles and scripts.
  */
 function copyStaticFiles(eleventyConfig) {
-  const staticResources = ["src/assets", "src/style.css"];
+  const staticResources = ["src/assets", "src/style.css", "src/_routes.json"];
 
   staticResources.forEach((resource) =>
     eleventyConfig.addPassthroughCopy(resource),

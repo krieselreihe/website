@@ -10,7 +10,7 @@
     "lint": "eslint . && stylelint 'src/**/*.css'",
     "format": "prettier --write .",
     "format:check": "prettier --list-different .",
-    "ci": "pnpm run lint && pnpm run format:check"
+    "ci": "pnpm lint && pnpm format:check"
   },
   "repository": {
     "type": "git",
